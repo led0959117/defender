@@ -1,0 +1,77 @@
+body:not(.full-mode) {
+  width: 750px;
+  height: 600px;
+}
+
+.q-body--prevent-scroll {
+  position: static !important;
+}
+
+body:not(.full-mode)::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+}
+
+body:not(.full-mode)::-webkit-scrollbar {
+  width: 8px;
+  background-color: #F5F5F5;
+}
+
+body:not(.full-mode)::-webkit-scrollbar-thumb {
+  background-color: #4CB871;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0.5, rgba(255, 255, 255, 0.2)), color-stop(0.5, transparent), to(transparent));
+}
+
+.sc::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+}
+
+.sc::-webkit-scrollbar {
+  width: 8px;
+  background-color: #F5F5F5;
+}
+
+.sc::-webkit-scrollbar-thumb {
+  background-color: #4CB871;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0.5, rgba(255, 255, 255, 0.2)), color-stop(0.5, transparent), to(transparent));
+}
+
+.q-markup-table {
+  margin-right: 4px;
+}
+
+.q-table tbody td {
+  font-size: 14px;
+}
+
+.footer-m {
+  position: absolute;
+  bottom: 16px;
+  width: 100%;
+  left: 0;
+  padding: 0 16px;
+}
+
+.q-table th {
+  font-size: 14px !important;
+}
+
+.copy-right {
+  font-size: 16px;
+}
+.copy-right a {
+  text-decoration: none;
+  color: #4CB871;
+  font-weight: bold;
+}
+
+.max-height {
+  max-height: 370px;
+  overflow: auto;
+}
+
+.q-table th, .q-table td {
+  padding: 7px 12px;
+  background-color: inherit;
+}
